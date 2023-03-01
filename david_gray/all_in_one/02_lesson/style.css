@@ -1,0 +1,28 @@
+/* * {
+  font-family: monospace;
+} */
+body {
+  font-size: 22px;
+  border: 1px solid #333;
+}
+h1, h2 { 
+  color: blue;
+}
+p {
+  /* color: red!important; don't use as it overides natural flow */
+  color: red;
+  border: inherit;
+}
+p {
+  color: purple;
+}
+.highlight { 
+  text-transform: uppercase;
+  background-color: gold;
+}
+.gray {
+  color: gray;
+}
+#second {
+  font-style: italic;
+}

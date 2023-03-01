@@ -1,0 +1,102 @@
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+  white-space: nowrap;
+}
+.offscreen {
+  position: absolute;
+  left: -100000px;
+}
+/* End Utility Classes */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 130vh;
+  background-color: aliceblue;
+  /* background-image: 
+    url(../../../../SourceFiles/images/Colt\ Steele\ -\ Clouds.png),
+    linear-gradient(steelblue, purple, #fff);
+  background-size: contain, auto;
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center; */
+  /* background-image: linear-gradient(to left, steelblue, purple, #fff); */
+  /* background-image: linear-gradient(to right, steelblue, purple, #fff); */
+  background-image: linear-gradient(to bottom, steelblue, purple, #fff);
+  /* background-image: linear-gradient(to top, steelblue, purple, #fff); */
+}
+.containers {
+  background-color: rgb(251, 210, 156);
+  /* background-image: url('../../../../SourceFiles/images/tartan.png'); */
+  background-image: url('../../../../SourceFiles/images/Poznan\ Square.jpg');
+  /* background-image: url('../../../../SourceFiles/images/Colt\ Steele\ -\ Clouds.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: center center;
+  /* background-position: top right; */
+  /* background-position: top left; */
+  /* background-position: bottom left; */
+  /* background-position: bottom right; */
+}
+.hero {
+  border-bottom: 2px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  background-color: hsla(0, 0%, 100%, 0.35);
+}
+.h1 {
+  font-size: 500%;
+  /* color: #fff; */
+  color: aliceblue;
+  text-shadow: 2px 2px 5px #000;
+  /* text-shadow: 2px 2px 5px darkcyan; */
+  /* background-color: hsla(0, 0%, 0%, 0.404);
+  padding: 0.25rem;
+  border-radius: 10px; */
+}
+.profile-pic-figure {
+  width: 35%;
+}
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+.example img {
+  width: 25%;
+  height: auto;
+}
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url('../../../../SourceFiles/images/Colt\ Steele\ -\ Clouds.png');
+  background-size: contain;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: hsla(0, 0%, 0%, 0.212);
+}
