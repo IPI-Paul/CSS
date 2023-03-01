@@ -1,0 +1,14 @@
+nav {
+  max-height: 30px;
+}
+.root {
+  display: flex;
+}
+.dropdown-menu {
+  max-height: 75vh;
+  overflow: scroll;
+}
+.dropdown-menu[data-bs-popper] {
+  position: absolute;
+  top: 30px;
+}
